@@ -1,0 +1,17 @@
+.__link {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 19px;
+  color: #e4e5ea;;
+  cursor: pointer;
+  text-align: inherit;
+}
+
+@media screen and (max-width: 320px) {
+  .__link {
+    font-size: 14px;
+  }
+}

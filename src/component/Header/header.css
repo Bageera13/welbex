@@ -1,0 +1,76 @@
+.header-wrapper {
+  display: flex;
+  margin-top: 57px;
+  margin-bottom: 90px;
+}
+
+.__logo-block {
+  display: flex;
+  flex-direction: column;
+  margin-right: 52px;
+}
+
+.__logo {
+  width: 140px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.__dscr {
+  font-family: 'Montserrat';
+  width: 140px;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+}
+
+.__header-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.__nav-link {
+  padding: 4px 0;
+}
+
+.__header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.__tel-link {
+  padding: 4px 0;
+  margin-right: 48px;
+}
+
+.__social-item {
+  padding: 4px 0;
+}
+
+.__social-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+@media screen and (max-width: 320px) {
+
+  .header-wrapper {
+    margin: 20px 0;
+  }
+
+  .--display-none {
+    display: none;
+  }
+
+  .__header-nav {
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .__logo-block {
+    display: none;
+  }
+
+  .__header-contacts {
+    display: none;
+  }
+}

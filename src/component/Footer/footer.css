@@ -1,0 +1,91 @@
+.--foot-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.__footer-up {
+  display: flex;
+  justify-content: space-between;
+  margin: 145px 0 33px 0;
+}
+
+.__title-section {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #656566;
+}
+
+.__menu-wrapper {
+  display: flex;
+}
+
+.__left-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.__menu-left {
+  margin-right: 50px;
+}
+
+.__contacts {
+  align-items: flex-end;
+}
+
+.__contact-icon {
+  padding: 4px 0;
+}
+
+.__contact-icon:not(:last-child) {
+  margin-right: 13px;
+}
+
+.__contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 23px;
+}
+
+.__footer-down {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 35px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.__politic {
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .__title-section {
+    text-align: left;
+  }
+
+  .__footer-up {
+    flex-direction: column;
+    margin-top: 35px;
+  }
+
+  .__contacts {
+    align-items: flex-start;
+  }
+
+  .__contacts-wrapper {
+    align-items: flex-start;
+  }
+
+  .__footer-down {
+    align-items: flex-start;
+  }
+}
